@@ -1,0 +1,631 @@
+inserts for questions		
+
+#2
+INSERT INTO Customer
+	VALUES('123456789', 'Ryan Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('223456789', 'Holly Hockett', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123456780', 'Renata Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Orders
+	VALUES('098765432', '2020-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765433', '2020-04-17', '123456780');
+INSERT INTO Orders
+	VALUES('098765434', '2020-03-17', '223456789');
+INSERT INTO Order_book
+	VALUES('098765432', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765433', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765434', '0000000001', 1);
+-----------------------------------------------------------------------------------------------
+#3
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science 1', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 500.99, '00001-01-01','2222222222');
+-------------------------------------------------------------------------------------------------
+#4
+
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Author
+	VALUES('1111', 'Aron', 'author1');
+INSERT INTO Author
+	VALUES('2222', 'Lauren', 'author2');
+INSERT INTO Written_by
+	VALUES('0000000001', '2222');
+INSERT INTO Written_by
+	VALUES('0000000005', '2222');
+INSERT INTO Written_by
+	VALUES('0000000006', '1111');
+INSERT INTO Written_by
+	VALUES('0000000007', '2222');
+-----------------------------------------------------------------------------------------------
+#5
+
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Author
+	VALUES('1111', 'Aron', 'author1');
+INSERT INTO Author
+	VALUES('2222', 'Lauren', 'author2');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Written_by
+	VALUES('0000000001', '2222');
+INSERT INTO Written_by
+	VALUES('0000000005', '2222');
+INSERT INTO Written_by
+	VALUES('0000000006', '1111');
+INSERT INTO Written_by
+	VALUES('0000000007', '2222');
+INSERT INTO Written_by
+	VALUES('0000000007', '1111');
+INSERT INTO Written_by
+	VALUES('0000000008', '1111');
+----------------------------------------------------------------------------------------------------------------------
+#6
+
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Author
+	VALUES('1111', 'Aron', 'author1');
+INSERT INTO Author
+	VALUES('2222', 'Lauren', 'author2');
+INSERT INTO Author
+	VALUES('3333', 'Jeff', 'Smith');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Written_by
+	VALUES('0000000001', '2222');
+INSERT INTO Written_by
+	VALUES('0000000005', '2222');
+INSERT INTO Written_by
+	VALUES('0000000006', '1111');
+INSERT INTO Written_by
+	VALUES('0000000007', '2222');
+INSERT INTO Written_by
+	VALUES('0000000007', '1111');
+INSERT INTO Written_by
+	VALUES('0000000008', '1111');
+INSERT INTO Written_by
+	VALUES('0000000009', '3333');
+-------------------------------------------------------------------------------------------------------------------------
+#7
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+--------------------------------------------------------------------------------------------------------------------------
+#8
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Author
+	VALUES('1111', 'Aron', 'author1');
+INSERT INTO Author
+	VALUES('2222', 'Lauren', 'author2');
+INSERT INTO Author
+	VALUES('3333', 'Jeff', 'Smith');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Written_by
+	VALUES('0000000001', '2222');
+INSERT INTO Written_by
+	VALUES('0000000005', '2222');
+INSERT INTO Written_by
+	VALUES('0000000006', '1111');
+INSERT INTO Written_by
+	VALUES('0000000007', '2222');
+INSERT INTO Written_by
+	VALUES('0000000007', '1111');
+INSERT INTO Written_by
+	VALUES('0000000008', '1111');
+INSERT INTO Written_by
+	VALUES('0000000009', '3333');
+INSERT INTO Written_by
+	VALUES('0000000010', '3333');
+INSERT INTO Written_by
+	VALUES('0000000011', '3333');
+--------------------------------------------------------------------------------------------------------------------------
+#9
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Editor
+	VALUES('2222', 'Sharen', 'editor1');
+INSERT INTO Editor
+	VALUES('1111', 'Logan', 'editor2');
+INSERT INTO Editor
+	VALUES('3333', 'Sara', 'editor3');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Edited_by
+	VALUES('2222', '0000000001');
+INSERT INTO Edited_by
+	VALUES('2222', '0000000002');
+INSERT INTO Edited_by
+	VALUES('3333', '0000000003');
+INSERT INTO Edited_by
+	VALUES('2222', '0000000004');
+INSERT INTO Edited_by
+	VALUES('1111', '0000000005');
+INSERT INTO Edited_by
+	VALUES('2222', '0000000006');
+INSERT INTO Edited_by
+	VALUES('1111', '0000000007');
+INSERT INTO Edited_by
+	VALUES('2222', '0000000008');
+INSERT INTO Edited_by
+	VALUES('2222', '0000000009');
+INSERT INTO Edited_by
+	VALUES('3333', '0000000010');
+INSERT INTO Edited_by
+	VALUES('3333', '0000000011');
+----------------------------------------------------------------------------------------------------------------------
+#10
+INSERT INTO Customer
+	VALUES('123456789', 'Ryan Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('223456789', 'Holly Hockett', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123456780', 'Renata Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123556780', 'Alice Kay', 'Electric AVE');
+INSERT INTO Orders
+	VALUES('098765432', '2020-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765433', '2020-04-17', '123456780');
+INSERT INTO Orders
+	VALUES('098765434', '2020-03-17', '223456789');
+INSERT INTO Orders
+	VALUES('098765435', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765436', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765437', '2020-03-17', '123556780');
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Order_book
+	VALUES('098765432', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765434', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765433', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765435', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765436', '0000000009', 1);
+INSERT INTO Order_book
+	VALUES('098765437', '0000000005', 1);
+----------------------------------------------------------------------------------------------------------------------
+#11
+INSERT INTO Customer
+	VALUES('123456789', 'Ryan Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('223456789', 'Holly Hockett', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123456780', 'Renata Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123556780', 'Alice Kay', 'Electric AVE');
+INSERT INTO Orders
+	VALUES('098765432', '2020-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765433', '2020-04-17', '123456780');
+INSERT INTO Orders
+	VALUES('098765434', '2020-03-17', '223456789');
+INSERT INTO Orders
+	VALUES('098765435', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765436', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765437', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765438', '2020-03-17', '123556780');
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Order_book
+	VALUES('098765432', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765434', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765433', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765435', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765436', '0000000009', 1);
+INSERT INTO Order_book
+	VALUES('098765437', '0000000005', 1);
+INSERT INTO Order_book
+	VALUES('098765438', '0000000005', 1);
+---------------------------------------------------------------------------------------------------------------------
+#12
+INSERT INTO Customer
+	VALUES('123456789', 'Ryan Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('223456789', 'Holly Hockett', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123456780', 'Renata Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123556780', 'Alice Kay', 'Electric AVE');
+INSERT INTO Orders
+	VALUES('098765432', '2020-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765433', '2020-04-17', '123456780');
+INSERT INTO Orders
+	VALUES('098765434', '2020-03-17', '223456789');
+INSERT INTO Orders
+	VALUES('098765435', '2020-03-18', '123556780');
+INSERT INTO Orders
+	VALUES('098765436', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765437', '2020-03-18', '123556780');
+INSERT INTO Orders
+	VALUES('098765438', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765439', '2020-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765440', '2020-03-17', '223456789');
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000012', 'Fundamentals of Database Systems', 'Textbook', 650.99, '00001-01-01','2222222222');
+INSERT INTO Order_book
+	VALUES('098765432', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765434', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765433', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765435', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765436', '0000000009', 1);
+INSERT INTO Order_book
+	VALUES('098765437', '0000000005', 1);
+INSERT INTO Order_book
+	VALUES('098765439', '0000000012', 1);
+INSERT INTO Order_book
+	VALUES('098765440', '0000000012', 1);
+----------------------------------------------------------------------------------------------------------------------
+#13
+INSERT INTO Customer
+	VALUES('123456789', 'Ryan Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('223456789', 'Holly Hockett', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123456780', 'Renata Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123556780', 'Alice Kay', 'Electric AVE');
+INSERT INTO Orders
+	VALUES('098765432', '2019-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765433', '2018-04-17', '123456780');
+INSERT INTO Orders
+	VALUES('098765434', '2013-03-17', '223456789');
+INSERT INTO Orders
+	VALUES('098765435', '2020-03-18', '123556780');
+INSERT INTO Orders
+	VALUES('098765436', '2011-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765437', '2020-03-18', '123556780');
+INSERT INTO Orders
+	VALUES('098765438', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765439', '2020-03-17', '123456789');
+INSERT INTO Orders
+	VALUES('098765440', '2020-03-17', '223456789');
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000012', 'Fundamentals of Database Systems', 'Textbook', 650.99, '00001-01-01','2222222222');
+INSERT INTO Order_book
+	VALUES('098765432', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765434', '0000000001', 1);
+INSERT INTO Order_book
+	VALUES('098765433', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765435', '0000000002', 1);
+INSERT INTO Order_book
+	VALUES('098765436', '0000000009', 1);
+INSERT INTO Order_book
+	VALUES('098765437', '0000000005', 1);
+INSERT INTO Order_book
+	VALUES('098765439', '0000000005', 1);
+INSERT INTO Order_book
+	VALUES('098765440', '0000000005', 1);
+-----------------------------------------------------------------------------------------------------------------
+#14
+INSERT INTO Customer
+	VALUES('123456787', 'Ryan Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('223456789', 'Holly Hockett', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123456780', 'Renata Kuchenthal', '1800 Barn Owl Ct');
+INSERT INTO Customer
+	VALUES('123556780', 'Alice Kay', 'Electric AVE');
+INSERT INTO Orders
+	VALUES('098765432', '2019-03-17', '123456787');
+INSERT INTO Orders
+	VALUES('098765433', '2018-04-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765434', '2013-03-17', '123456787');
+INSERT INTO Orders
+	VALUES('098765435', '2020-03-18', '123556780');
+INSERT INTO Orders
+	VALUES('098765436', '2011-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765437', '2020-03-18', '123556780');
+INSERT INTO Orders
+	VALUES('098765438', '2020-03-17', '123556780');
+INSERT INTO Orders
+	VALUES('098765439', '2020-03-17', '223456789');
+INSERT INTO Orders
+	VALUES('098765440', '2020-03-17', '123456787');
+INSERT INTO Orders
+	VALUES('098765441', '2020-03-17', '223456789');
+INSERT INTO Orders
+	VALUES('098765442', '2020-03-17', '223456789');
+----------------------------------------------------------------------------------------------------------
+#15
+INSERT INTO Publisher
+	VALUES('1111111111', 'publisher1', '3000 J Street','5555555555');
+INSERT INTO Publisher
+	VALUES('22222222222', 'publisher2', '3001 J Street','6666666666');
+INSERT INTO Book
+	VALUES('0000000001', 'The Odyssee', 'Novel', 49.99, '1802-09-26','2222222222');
+INSERT INTO Book
+	VALUES('0000000002', 'The Bible', 'Drama', 1000.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000003', 'Science', 'Textbook', 1000.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000004', 'Science 2', 'Textbook', 700.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000005', 'The Bubble', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000006', 'Mobey Dick', 'Novel', 9.99, '00001-01-01','1111111111');
+INSERT INTO Book
+	VALUES('0000000007', 'The wolf', 'Novel', 9.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000008', 'Fundamentals of Database Systems', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000009', 'cs 10', 'Textbook', 400.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000010', 'cs 11', 'Textbook', 500.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000011', 'cs 12', 'Textbook', 600.99, '00001-01-01','2222222222');
+INSERT INTO Book
+	VALUES('0000000012', 'Fundamentals of Database Systems', 'Textbook', 650.99, '00001-01-01','2222222222');
+
+
+
+
+
+
+
+
+
